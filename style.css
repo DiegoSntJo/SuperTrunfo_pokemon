@@ -1,0 +1,213 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 854px;
+  background-image: url("https://wallpaperaccess.com/full/3339433.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.container img {
+  height: 200px;
+}
+
+.texto-tipos {
+  color: #fff;
+  font-size: 13px;
+}
+
+.page-title {
+  color: #ffcc00;
+  margin: 5px 0;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #1a5dac;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+.button-jogar {
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+#btnSortear {
+  background-color: #07da63;
+}
+
+h2 {
+  color: #ffcc00;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #1a5dac;
+}
+
+#carta-jogador,
+#carta-maquina {
+  width: 360px;
+  height: 500px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background-size: 290px 210px;
+  background-repeat: no-repeat;
+  background-position-x: 37px;
+  background-position-y: 50px;
+  border-radius: 33px;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+}
+
+#carta-maquina p {
+  color: #000;
+}
+
+.carta-imagem {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.carta-status {
+  height: 160px;
+  margin: 50px 0px 50px 75px;
+  color: black;
+  z-index: 2;
+}
+
+.carta-status input {
+  margin: 0px;
+  margin-top: 3px;
+  float: left;
+}
+
+.carta-status p {
+  margin: 0px;
+  margin-bottom: 2rem;
+  height: 0px;
+  width: 130px;
+  text-align: left;
+}
+
+.resultado-final {
+  font-family: "Press Start 2P", cursive;
+  height: 50px;
+  background-image: url(https://pbs.twimg.com/media/FPEyYZkXMAUctW7?format=png&name=large);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weigth: bolder;
+  padding: 1rem;
+}
+
+.--spacing {
+  margin-left: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.carta-subtitle {
+  z-index: 2;
+  position: absolute;
+  top: 16px;
+  left: 37px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.carta-tipo {
+  z-index: 2;
+  position: absolute;
+  top: 20px;
+  left: 230px;
+  font-size: 14px;
+}
+
+.carta-tipo2 {
+  z-index: 2;
+  position: absolute;
+  top: 20px;
+  left: 190px;
+  font-size: 14px;
+}
+
+#cartas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mostrar-regras-cover {
+  width: 100%;
+  height: 440px;
+  background-image: url(https://pbs.twimg.com/media/FPEyYZkXMAUctW7?format=png&name=large);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.mostrar-regras {
+  display: flex;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.mostrar-regras p {
+  font-family: "Press Start 2P", cursive;
+  text-align: justify;
+  max-height: 400px;
+  align-self: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 50px;
+}
+
+#tipos {
+  height: 50%;
+  width: 70%;
+}
+
+.button-tipos {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(https://pbs.twimg.com/media/FPIDHFPXMAITN9f?format=png&name=900x900);
+  background-size: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 5px;
+  width: 5px;
+  padding: 0.8rem 1.5rem;
+  margin: 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}

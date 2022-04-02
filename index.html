@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Super Trunfo - Pokémon</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    SuperTrunfo Pokémon Red, Blue and Yellow
+  </title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,700;1,400&display=swap');
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://logosmarcas.net/wp-content/uploads/2020/05/Pokemon-Logo.png" class="page-logo" alt="">
+    <h1 class="page-title">Super Trunfo Pokémon Red/Blue/Yellow</h1>
+    <button onclick="mostrarRegras()" id="btnRegras">Mostrar Regras</button><br>
+    <div id="cover">
+      <div id="mostrarRegras"></div>
+    </div>
+
+    <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button><br>
+    <p class="texto-tipos">(Clique na pokébola para ver vantagens e dasvantagens de tipos)</p>
+    <button onclick="mostrarTipos()" class="button-tipos"></button>
+    <div id="mostrarTipos"></div><br>
+    <form id="form">
+      <h2>Escolha o seu atributo</h2>
+      <div class="wrapper">
+        <div>
+          <div id="carta-jogador">
+            <img src="https://i.ebayimg.com/images/g/jI4AAOSwr5JhIsVk/s-l300.png" style=" width: inherit; height: inherit; position: absolute;">
+            <h3></h3>
+          </div>
+        </div>
+        <div>
+          <div id="carta-maquina"><img src="https://i.ebayimg.com/images/g/jI4AAOSwr5JhIsVk/s-l300.png" style=" width: inherit; height: inherit; position: absolute;"></div>
+        </div>
+      </div>
+      <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="true">Jogar</button>
+      <div id="resultado"></div>
+    </form>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
